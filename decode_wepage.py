@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = 'https://www.nytimes.com'
 r = requests.get(url)
-r_html = r.text # the html of the page as a string is not in this variable lol
+r_html = r.text # the html of the page as a string is not in this variable 
 
 
 html_doc = """
